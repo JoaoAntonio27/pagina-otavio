@@ -1,0 +1,96 @@
+body {
+    background-color: #d9d9d9;
+  }
+  header {
+    background-color: #4c4d4b;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 24px;
+  }
+  
+  .user-info {
+    background-color: #4c4d4b;
+    padding: 50px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info .photo {
+    margin-right: 40px;
+  }
+  
+  .user-info .details {
+    flex-grow: 1;
+    color: #fff;
+  }
+  
+  .user-info .additional-info {
+    flex-grow: 1;
+    color: #fff;
+    font-size: 20px
+  }
+  
+  .user-info .details p {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+  
+  .achievements {
+    background-color: #4c4d4b;
+    padding: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .courses {
+    background-color: #4c4d4b;
+    padding: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .achievements h2,
+  .courses h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  .achievements .badge,
+  .courses .badge {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+  }
+  
+  .user-info .photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
